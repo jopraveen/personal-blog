@@ -1,0 +1,178 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:white;
+}
+#wrapper
+{
+    height: 100vh;
+}
+#top-bar 
+{
+    height: 50px;
+    width: 80%;
+    margin: 20px auto;
+}
+#logo 
+{
+    width: 20px;
+    float: left;
+}
+#logo img {
+    width: 150px;
+    margin: 8px auto;
+    border-bottom: 2px solid #2c97e4;
+}
+#menu-bar 
+{
+    width: 60%;
+    margin-left: 280px;
+    float: left;
+    text-align: center;
+}
+#menu-bar ul li 
+{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 15px 20px;
+    padding-top: 5px;
+    float: left;
+    cursor: pointer;
+}
+#menu-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.active,#menu-bar ul li:hover
+{
+    border-top: 2px solid #2c97e4;
+}
+.search-box {
+    width: 20%;
+    float: right;
+}
+.input-search 
+{
+    margin: 11px auto;
+    display: inline-flex;
+    border-bottom: 1px solid #2c97e4;
+}
+.input-search input 
+{
+    float: right;
+    padding: 5px;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+.search-icon 
+{
+    color: #2c97e4;
+    cursor: pointer;
+}
+.hero
+{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.hero-text 
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.hero-text h1 
+{
+    margin: 100px 0 50px 70px;
+    line-height: 40px;
+}
+/*lmao How you did it*/
+.hero-text h1 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.hero-text p
+{
+    padding-left: 70px;
+    line-height: 25px;
+}
+#bnr
+{ 
+    float: right;
+    margin-top: 45px;
+}
+.social-media
+{
+    width: 200px;
+    height: 320px;
+    left: -70px;
+    top: 220px;
+    position: absolute; 
+    background-image: linear-gradient(#2c97e4,#d7e6fa);
+    border-top-right-radius: 275px 309px;
+    border-bottom-right-radius: 328px 627px;
+    border-bottom-left-radius: 108px 345px;
+}
+.social-media ul
+{
+    display: block;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.social-media ul li 
+{
+    list-style: none;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+.social-media ul li .fa
+{
+    font-size: 32px;
+    cursor: pointer;
+    z-index: 1;
+}
+.social-media ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer
+{
+    height: 50px;
+    width: 100%;
+    float: right;
+    bottom: -25px;
+    background-image: linear-gradient(#2c97e4,#d7e6fa);
+    position: absolute;
+    border-top-left-radius: 900px 100px;
+}
+
+
+/* End of Home css code */
+
+/*For about.html page*/
+#left-bar
+{
+    position: absolute;
+    width: 80px;
+    height: 272px;
+    left: 0px;
+    top: 240px;
+    background-image: linear-gradient(#2c97e4,#d7e6fa);
+    border-bottom-right-radius: 328px 627px;
+    border-top-right-radius: 275px 309px;
+}
+
